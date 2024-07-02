@@ -10,7 +10,7 @@ body{
 
 }
 
-.element {
+.elements {
     background-color: rgba(255, 255, 255, .3);
     padding: 28px;
     border-radius: 7px;
@@ -22,14 +22,55 @@ body{
     text-align: center;
     font-size: 18px;
     font-weight: 500;
+
     
 
 } 
 
-.result {
+.desconto {
     font-size: 15px;
-    background-color: aqua;
-    color: black;
+    background-color: black;
+    color: greenyellow;
+    padding: 10px;
+    margin: 1px;
+    width: 90px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
+}
+
+.final {
+    font-size: 15px;
+    background-color: black;
+    color: greenyellow;
+    padding: 10px;
+    margin: 1px;
+    width: 90px;
+    
+
+}
+ 
+.ipi {
+    font-size: 15px;
+    background-color: black;
+    color: greenyellow;
+    padding: 10px;
+    margin: 1px;
+    width: 90px;
+    
+
+}
+.fat {
+    font-size: 15px;
+    background-color: black;
+    color: greenyellow;
+    padding: 10px;
+    margin: 1px;
+    width: 90px;
+
+
+
 }
     
