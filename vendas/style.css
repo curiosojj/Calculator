@@ -1,0 +1,35 @@
+
+body{
+    background-color: black;
+    margin: 0;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+
+}
+
+.element {
+    background-color: rgba(255, 255, 255, .3);
+    padding: 28px;
+    border-radius: 7px;
+    color: white;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, .3);
+    width: 90px;
+    margin: 10px;
+    max-width: 450px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    
+
+} 
+
+.result {
+    font-size: 15px;
+    background-color: aqua;
+    color: black;
+    
+}
+    
