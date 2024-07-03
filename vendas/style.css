@@ -48,11 +48,16 @@ body{
     padding: 10px;
     margin: 1px;
     width: 90px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
     
 
 }
  
-.ipi {
+/*.desc {
     font-size: 15px;
     background-color: black;
     color: greenyellow;
@@ -61,7 +66,8 @@ body{
     width: 90px;
     
 
-}
+}*/
+/*
 .fat {
     font-size: 15px;
     background-color: black;
@@ -72,5 +78,5 @@ body{
 
 
 
-}
+}*/
     
