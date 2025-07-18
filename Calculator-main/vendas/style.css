@@ -1,0 +1,113 @@
+
+body{
+    background-color: black;
+    margin: 0;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+
+}
+
+.elements {
+    background-color: rgba(255, 255, 255, .3);
+    padding: 28px;
+    border-radius: 7px;
+    color: white;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, .3);
+    width: 90px;
+    margin: 10px;
+    max-width: 450px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+
+    
+
+} 
+
+.desconto {
+    font-size: 15px;
+    background-color: black;
+    color: greenyellow;
+    padding: 10px;
+    margin: 1px;
+    width: 90px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.final {
+    font-size: 15px;
+    background-color: black;
+    color: greenyellow;
+    padding: 10px;
+    margin: 1px;
+    width: 90px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+
+}
+
+.ipi {
+    font-size: 15px;
+    background-color: black;
+    color: greenyellow;
+    padding: 10px;
+    margin: 1px;
+    width: 90px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.finance {
+    font-size: 15px;
+    background-color: black;
+    color: greenyellow;
+    padding: 10px;
+    margin: 1px;
+    width: 90px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, .2);
+    color: white;
+    font-size: 16px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, .2);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgba(255, 255, 255, .4);
+}
