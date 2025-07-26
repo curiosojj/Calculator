@@ -1,29 +1,85 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>projeto vanbro</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>Calculadora - Tema Escuro</title>
+  <style></style>
 </head>
 <body>
-    <div class="elements">
-        <h1>Calculador de Descontos</h1>
 
-        <input id="tab" type="number">tabela</input>
+<h2>💡 Calculadora de Preços (Tema Escuro)</h2>
 
-        <input id="descont" type="number">desconto</input>
+<div class="tabs">
+  <button class="tab-btn active" onclick="mostrarTab('bomba', this)">Bomba</button>
+  <button class="tab-btn" onclick="mostrarTab('painel', this)">Painel</button>
+  <button class="tab-btn" onclick="mostrarTab('motor', this)">Motor</button>
+  <button class="tab-btn" onclick="mostrarTab('valvulas', this)">Válvulas</button>
+</div>
 
+<div class="form-container active" id="bomba">
+  <label>Preço Tabela:</label>
+  <input type="number" id="precoBomba">
+  <label>Desconto Cliente (%):</label>
+  <input type="number" id="descBomba">
+  <label>Pagamento:</label>
+  <select id="pagaBomba">
+    <option value="avista">À Vista</option>
+    <option value="faturado">Faturado</option>
+  </select>
+  <button onclick="calcBomba()">Calcular</button>
+  <div class="resultado" id="resBomba"></div>
+</div>
 
+<div class="form-container" id="painel">
+  <label>Preço Tabela:</label>
+  <input type="number" id="precoPainel">
+  <label>Tipo:</label>
+  <select id="tipoPainel">
+    <option value="compensadora">Compensadora</option>
+    <option value="normal">Normal</option>
+  </select>
+  <label>Pagamento:</label>
+  <select id="pagaPainel">
+    <option value="avista">À Vista</option>
+    <option value="faturado">Faturado</option>
+  </select>
+  <label>Junto com Bomba?</label>
+  <select id="juntaPainel">
+    <option value="sim">Sim</option>
+    <option value="nao">Não</option>
+  </select>
+  <button onclick="calcPainel()">Calcular</button>
+  <div class="resultado" id="resPainel"></div>
+</div>
 
-        <button id="bt">calcular</button>
-        <div class="desconto">desconto</div>
-        <div class="desconto1">desconto1</div>
-        <div class="final">preço final</div>    
-        
-    </div>
-    
-   
-    <script src="main.js"></script>
-</body>
-</html>
+<div class="form-container" id="motor">
+  <label>Preço Tabela:</label>
+  <input type="number" id="precoMotor">
+  <label>Desconto Cliente (%):</label>
+  <input type="number" id="descMotor">
+  <label>Pagamento:</label>
+  <select id="pagaMotor">
+    <option value="avista">À Vista</option>
+    <option value="faturado">Faturado</option>
+  </select>
+  <button onclick="calcMotor()">Calcular</button>
+  <div class="resultado" id="resMotor"></div>
+</div>
+
+<div class="form-container" id="valvulas">
+  <label>Qtd. Válvula 1½ (R$381):</label>
+  <input type="number" id="val1">
+  <label>Qtd. Válvula 2" (R$429):</label>
+  <input type="number" id="val2">
+  <label>Qtd. Válvula 2½ (R$659):</label>
+  <input type="number" id="val3">
+  <label>Pagamento:</label>
+  <select id="pagaValvula">
+    <option value="avista">À Vista</option>
+    <option value="faturado">Faturado</option>
+  </select>
+  <button onclick="calcValvula()">Calcular</button>
+  <div class="resultado" id="resValvula"></div>
+</div>
+
+<script><script/>
